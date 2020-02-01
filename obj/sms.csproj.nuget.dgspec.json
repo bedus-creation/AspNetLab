@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/ellite/c4fe0452-ea69-4a2b-8a1f-7fdc3fc53744/Practise/asp.net/Sms/sms.csproj": {}
+  },
+  "projects": {
+    "/media/ellite/c4fe0452-ea69-4a2b-8a1f-7fdc3fc53744/Practise/asp.net/Sms/sms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/ellite/c4fe0452-ea69-4a2b-8a1f-7fdc3fc53744/Practise/asp.net/Sms/sms.csproj",
+        "projectName": "sms",
+        "projectPath": "/media/ellite/c4fe0452-ea69-4a2b-8a1f-7fdc3fc53744/Practise/asp.net/Sms/sms.csproj",
+        "packagesPath": "/home/ellite/.nuget/packages/",
+        "outputPath": "/media/ellite/c4fe0452-ea69-4a2b-8a1f-7fdc3fc53744/Practise/asp.net/Sms/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ellite/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
