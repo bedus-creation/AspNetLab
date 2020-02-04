@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/ellite/c4fe0452-ea69-4a2b-8a1f-7fdc3fc53744/Practise/asp.net/Sms/Sms.Tests/Sms.Tests.csproj": {}
+  },
+  "projects": {
+    "/media/ellite/c4fe0452-ea69-4a2b-8a1f-7fdc3fc53744/Practise/asp.net/Sms/Sms.Tests/Sms.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/ellite/c4fe0452-ea69-4a2b-8a1f-7fdc3fc53744/Practise/asp.net/Sms/Sms.Tests/Sms.Tests.csproj",
+        "projectName": "Sms.Tests",
+        "projectPath": "/media/ellite/c4fe0452-ea69-4a2b-8a1f-7fdc3fc53744/Practise/asp.net/Sms/Sms.Tests/Sms.Tests.csproj",
+        "packagesPath": "/home/ellite/.nuget/packages/",
+        "outputPath": "/media/ellite/c4fe0452-ea69-4a2b-8a1f-7fdc3fc53744/Practise/asp.net/Sms/Sms.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ellite/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

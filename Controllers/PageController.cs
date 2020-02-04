@@ -8,16 +8,10 @@ namespace Sms.Controllers
 {
     public class PageController : Controller
     {
-        private readonly ILogger<PageController> _logger;
 
-        public PageController(ILogger<PageController> logger)
+        public ViewResult Index()
         {
-            _logger = logger;
-        }
-
-        public String Index()
-        {
-            return "This is my default action...";
+            return View("Index");
         }
 
         public String Blogs()
