@@ -1,2 +1,4 @@
+.vscode
 **/bin/**
 database.db
+**/obj/**
